@@ -23,23 +23,18 @@ MonoBehaviour:
   - rid: 8166860476166438949
   - rid: 8166860476166438950
   preRefinedArtifact:
-    rid: 8166860476166438974
+    rid: -2
   refinedArtifact:
-    rid: 8166860476166438974
+    rid: -2
   selectedArtifact:
     rid: 8166860476166438974
   m_Operators:
-  - rid: 8166860476166438951
-  - rid: 8166860476166439052
-  - rid: 8166860476166439053
-  - rid: 8166860476166439054
-  - rid: 8166860476166439055
-  m_PreRefineOperators:
   - rid: 8166860476166438951
   - rid: 8166860476166438952
   - rid: 8166860476166438953
   - rid: 8166860476166438954
   - rid: 8166860476166438955
+  m_PreRefineOperators: []
   m_ExportedArtifacts:
   - m_UnityGuid: a041269a79cbfd44ab59e918b2d60c78
     m_MuseGuid: a97e01d6-6e79-448d-9f9d-6a3292dcece6
@@ -60,6 +55,8 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: -2
+      type: {class: , ns: , asm: }
     - rid: 8166860476166438948
       type: {class: BookmarkManager, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
       data:
@@ -518,69 +515,6 @@ MonoBehaviour:
           hidden: 0
           isRefinement: 0
     - rid: 8166860476166438979
-      type: {class: MaskOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
-      data:
-        m_OperatorData:
-          type: MaskOperator
-          key: MaskOperator
-          version: 0.0.1
-          settings:
-          - 
-          - True
-          - 1
-          enabled: 0
-          assembly: 
-          hideable: 0
-          hidden: 0
-          isRefinement: 0
-    - rid: 8166860476166439052
-      type: {class: PromptOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
-      data:
-        m_OperatorData:
-          type: PromptOperator
-          key: PromptOperator
-          version: 0.0.2
-          settings:
-          - Clear green grass
-          - 
-          enabled: 1
-          assembly: 
-          hideable: 0
-          hidden: 0
-          isRefinement: 0
-    - rid: 8166860476166439053
-      type: {class: LoraOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
-      data:
-        m_OperatorData:
-          type: LoraOperator
-          key: LoraOperator
-          version: 0.0.1
-          settings:
-          - guid1
-          enabled: 0
-          assembly: 
-          hideable: 0
-          hidden: 0
-          isRefinement: 0
-    - rid: 8166860476166439054
-      type: {class: ReferenceOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
-      data:
-        m_OperatorData:
-          type: ReferenceOperator
-          key: ReferenceOperator
-          version: 0.0.2
-          settings:
-          - 
-          - 
-          - 0
-          - 20
-          - 
-          enabled: 1
-          assembly: 
-          hideable: 0
-          hidden: 0
-          isRefinement: 0
-    - rid: 8166860476166439055
       type: {class: MaskOperator, ns: Unity.Muse.Common, asm: Unity.Muse.Common}
       data:
         m_OperatorData:
